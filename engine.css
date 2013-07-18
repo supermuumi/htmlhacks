@@ -1,0 +1,30 @@
+html { overflow: hidden; }
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: futura, helvetica, arial, sans-serif;
+}
+
+
+#dummy {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 600px;
+	margin-top: -300px;
+	text-align: center;
+	z-index:2;
+
+
+}
+
+#clipper {
+	width: 100%;
+	height: 600px;
+	overflow:hidden;
+}
+
+#demo {
+	margin-top: -600px; 
+}
